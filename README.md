@@ -10,10 +10,12 @@ After our data is ready, we start making our system using Python language. At fi
 Having the data describe the dream phone of the user, we will start calculating the distance of it with all the phones in the dataset, sort it, and take out the phone with the smallest distance.
 At that point, we start sharing the project with other people and realize that this system is hard to evaluate with another system. All people will receive the same recommendation if they have the same input and the recommendation will lack diversity. So the Collaborative Filtering version was borns.
 *This is the link in virtual workspace that you can run the algorithms: https://app.datacamp.com/workspace/w/15198bed-ddaf-4b34-a1cc-2588ee665672/edit
+You can change the sentence to try that code. In this code, you input your dream phone and their will recommend the phone that match it most . 
 # CF Dataset: 
 Collaborative Filtering takes input data as a User-Rating matrix so we need to find another dataset. We choose the user-rating matrix from this dataset: https://www.kaggle.com/datasets/meirnizri/cellphones-recommendations?select=cellphones+data.csv
 This data is already clean but the rating was out of 10 so we will need to scale it. Our work will follow these steps: prepare data, train the system, evaluate the system, and after that, we start to recommend things. But when recommending to new users, we need to add the user's historical information to the training set and recalculate it to make the recommendation.
 Our main algorithm in the train system part is the matrix factorization technique using pure SVD with SGD which is used to optimize the system. And in the evaluation part, we use RMSE metrics. As a result, the RMSE is kinda high, about 2.08.
+In this code, you input the phone id, your rating and their will recommend the phone that match it most .
 # In the future: 
 So in the future, we will try to optimize this system to make more accurate recommendations.
 # P/S:
