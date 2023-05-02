@@ -15,3 +15,7 @@ This data is already clean but the rating was out of 10 so we will need to scale
 Our main algorithm in the train system part is the matrix factorization technique using pure SVD with SGD which is used to optimize the system. And in the evaluation part, we use RMSE metrics. As a result, the RMSE is kinda high, about 2.08.
 # In the future: 
 So in the future, we will try to optimize this system to make more accurate recommendations.
+# P/S:
+We were making this system for a Scientific paper at university. So feel free to read and leave some contributing comment. We are only second-year university students anyway ^^.
+https://drive.google.com/file/d/1DGsSOr2gCmodLg2e19aXavk6HbvFFcbz/view?usp=sharing
+
