@@ -48,7 +48,7 @@ def print_train_and_test(n, trainset, testset):
       print(f"User {uid} rated item {iid} with a rating of {rating}")
 
 def SVDalgo(trainset):
-    algo = SVD(n_factors=999, n_epochs=999, lr_all=0.01, reg_all=0.04)
+    algo = SVD(n_factors=50, n_epochs=30, lr_all=0.01, reg_all=0.04)
     algo.fit(trainset)
     return algo
 
