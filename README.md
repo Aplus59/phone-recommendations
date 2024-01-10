@@ -1,6 +1,7 @@
 This repository contains the files for a Data Science project about recommender systems and machine learning in order to recommend phones for users using their historical data. 
 The first project is building recommender systems using Content-Base Filtering. But after further work, we built the second project using Collaborative Filtering which can recommendations better. 
-# CB Dataset: 
+# Content-Base Filtering 
+# Dataset: 
 Our dataset contains 824 phone models, price, battery, and size.
 reference of data: https://www.kaggle.com/datasets/anas123siddiqui/mobiles?fbclid=IwAR1LwZvB997RvLaBAQR59uc7UAuVI7gwL3PkO31VvkHKw-_nVwncOM0v3q8
 # The process:
@@ -11,7 +12,8 @@ Having the data describe the dream phone of the user, we will start calculating 
 At that point, we start sharing the project with other people and realize that this system is hard to evaluate with another system. All people will receive the same recommendation if they have the same input and the recommendation will lack diversity. So the Collaborative Filtering version was borns.
 *This is the link in virtual workspace that you can run the algorithms: https://app.datacamp.com/workspace/w/15198bed-ddaf-4b34-a1cc-2588ee665672/edit
 You can change the sentence to try that code. In this code, you input your dream phone and their will recommend the phone that match it most . 
-# CF Dataset: 
+# Collaborative Filtering 
+# Dataset: 
 Collaborative Filtering takes input data as a User-Rating matrix so we need to find another dataset. We choose the user-rating matrix from this dataset: https://www.kaggle.com/datasets/meirnizri/cellphones-recommendations?select=cellphones+data.csv
 This data is already clean but the rating was out of 10 so we will need to scale it. Our work will follow these steps: prepare data, train the system, evaluate the system, and after that, we start to recommend things. But when recommending to new users, we need to add the user's historical information to the training set and recalculate it to make the recommendation.
 Our main algorithm in the train system part is the matrix factorization technique using pure SVD with SGD which is used to optimize the system. And in the evaluation part, we use RMSE metrics. As a result, the RMSE is kinda high, about 2.08.
