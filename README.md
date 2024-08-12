@@ -22,5 +22,5 @@ In this code, you input the phone id, your rating and their will recommend the p
 So in the future, we will try to optimize this system to make more accurate recommendations.
 # P/S:
 We were making this system for a Scientific paper at university. So feel free to read and leave some contributing comment. We are only second-year university students anyway ^^.
-https://drive.google.com/file/d/1DGsSOr2gCmodLg2e19aXavk6HbvFFcbz/view?usp=sharing
+https://studenthcmusedu-my.sharepoint.com/:b:/g/personal/21126021_student_hcmus_edu_vn/EbWwWLQfbh5Ihw3WOfQxY8sBdERx0NzCo5DqkDnzFsIazQ?e=fSbOMR
 
